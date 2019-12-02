@@ -20,14 +20,12 @@ int main()
 	   t=(struct node *) malloc(sizeof(struct node));
 	   //scanf("%d",&t->data);
 	   scanf("%d",&j);	
-	   t->data=j;
-//	   t->next=head->next;
-//	   head->next=t;
+
        t->next=head;
        head=t;
 	}
 	
-//	p=head->next;
+
     p=head;
 	while(p!=NULL)
 	{
